@@ -3,70 +3,74 @@
   padding:0;
 }
 
-/* home */
-.home{
-  width:90%;
-  margin:auto;
+.container-fluid{
+  padding:3% 15%;
+}
+.center{
+  text-align:center;
 }
 
+/* home */
 .intro{
-  padding:20%  0 0 10%;
-  padding-bottom:40%;
+  margin:15% 3% 27% 3%;
 }
+
 
 .introduction{
-  margin:0;
-  font-size:1.3rem;
-  font-family: 'Noto Sans JP', sans-serif;
-
+  font: 1.2rem Noto Sans JP ;
 }
+
 .name{
-  margin:20px 0 ;
-  font-size:3.5rem;
-  font-family:'PT Serif', serif;
-  letter-spacing:5px;
+  font: 4rem PT serif ;
+  letter-spacing:10px;
+  margin: 0 0 1.4% 0;
 }
+
 .title{
+
+  font-family: Arvo ;
+  font-weight:700;
   font-size:1.7rem;
-  font-family: 'Arvo', serif;
-  font-weight: 700;
   letter-spacing:2px;
-}
-
-.quote{
-  font-size:1.3rem;
-
-}
-.resume{
-  background-color:white;
-  border:solid 3px black;
-  padding:.5%;
-  font-size:100%;
-  cursor: pointer;
-  border-radius:10px;
-  margin:0;
-  width:10%;
 
 }
 
-.resume:hover{
-  background-color: black;
+.resumeDL{
+
+  background-color:transparent;
+  border:solid 2px;
+  padding:0 .7%;
+  border-radius:5px;
+}
+
+.resumeDL:hover{
+  background-color:black;
   color:white;
 }
 
 
+/* about */
 
+.abouttitle{
+  font-family:Arvo;
+  font-size:3rem;
+  letter-spacing:4px;
+  margin:0 0 10% 0 ;
+}
+.profilepic{
 
-.btn {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 5% 10%;
-  font-size: 16px;
-  cursor: pointer;
+  width:50%;
+  border-radius:50%;
+
+}
+
+.aboutself{
+  margin:auto 0;
 }
 
 
-
-
-/* about */
+@media screen and (max-width:575px){
+  .profilepic{
+    margin: 0 0 10%;
+  }
+}
